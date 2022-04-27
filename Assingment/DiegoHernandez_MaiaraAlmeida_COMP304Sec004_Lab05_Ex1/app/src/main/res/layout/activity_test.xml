@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <!--Nurse ID-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/lblAddNurseId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nurse Id: " />
+
+            <Spinner
+                android:id="@+id/spinnerAddTestNurseId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <!--BPL-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/lblAddTestBPL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BPL: " />
+
+            <EditText
+                android:id="@+id/editTextAddTestBPL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Type the BPL" />
+
+        </LinearLayout>
+
+        <!--BPH-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/lblAddTestBPH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BPH: " />
+
+            <EditText
+                android:id="@+id/editTextAddTestBPH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Type the BPH" />
+
+        </LinearLayout>
+
+        <!--Temperature-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/lblAddTestTemperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Temperature: " />
+
+            <EditText
+                android:id="@+id/editTextAddTestTemperature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Type the temperature" />
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCreateTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4CAF50"
+            android:text="Add test" />
+        <Button
+            android:id="@+id/btnSeeTests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFEB3B"
+            android:text="Go Back to Tests"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

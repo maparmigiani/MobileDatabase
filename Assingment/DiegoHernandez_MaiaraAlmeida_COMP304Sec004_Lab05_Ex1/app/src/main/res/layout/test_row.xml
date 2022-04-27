@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/purple_200"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <!--Test ID-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/lblTestId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Test Id: " />
+
+                <TextView
+                    android:id="@+id/textViewTestId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+            </LinearLayout>
+
+            <!--Patient ID-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/lblTestPatientID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Id: : " />
+
+                <TextView
+                    android:id="@+id/textViewTestPatientId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NurseId" />
+
+            </LinearLayout>
+
+            <!--Nurse ID-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/lblNurseId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nurse Id: " />
+
+                <TextView
+                    android:id="@+id/textViewTestNurseId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+            </LinearLayout>
+
+            <!--BPL-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/lblTestBPL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BPL: " />
+
+                <TextView
+                    android:id="@+id/textViewTestBPL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+            </LinearLayout>
+
+            <!--BPH-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/lblTestBPH"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BPH: " />
+
+                <TextView
+                    android:id="@+id/textViewTestBPH"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BPH: " />
+
+            </LinearLayout>
+
+            <!--Temperature-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/lblTestTemperature"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature: " />
+
+                <TextView
+                    android:id="@+id/textViewTestTemperature"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
